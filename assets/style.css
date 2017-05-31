@@ -66,7 +66,7 @@ body {
   background-color:#F2F2F2;
   border: 1px solid #4d4d4d;
   height: .5vw;
-  min-height: 5px;
+  min-height: 7px;
 
 }
 
@@ -87,15 +87,15 @@ body {
 
 /** mobile design **/
 @media screen and (max-width: 415px) {
-  .outer{
-    background-color: red
-  }
-
   #keyboard{
     display: none;
   }
 
   #box{
     width: 90vw;
+  }
+
+  #Layer_18{
+    display: none;
   }
 }

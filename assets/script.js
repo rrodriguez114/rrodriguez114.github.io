@@ -1,11 +1,116 @@
 $(document).ready(function() {
  // all your jQuery code goes in here!
-	$('#slide_button').click(function() {
-		$('#slide').animate({
-	    	width: 'toggle'
-	  	}, 750, function() {
-	  	});
-	});
+  $('#_03').click(function(e) {  
+    $("#_4").show() 
+    $("#_4").fadeOut(100); 
+    $("#dsharp")[0].currentTime=0;
+    $("#dsharp")[0].play();
+  });
+
+  $('#_13').click(function(e) {  
+    $("#_5").show() 
+    $("#_5").fadeOut(100);
+    $("#gsharp")[0].currentTime=0; 
+    $("#gsharp")[0].play();
+  });
+
+  $('#_23').click(function(e) {  
+    $("#_6").show() 
+    $("#_6").fadeOut(100); 
+    $("#asharp")[0].currentTime=0;
+    $("#asharp")[0].play();
+  });
+
+  $('#_33').click(function(e) {  
+    $("#_7").show() 
+    $("#_7").fadeOut(100); 
+    $("#b")[0].currentTime=0;
+    $("#b")[0].play();
+  });
+
+  $('#_02').click(function(e) {  
+    $("#R").show() 
+    $("#R").fadeOut(100); 
+    $("#chord1")[0].currentTime=0;
+    $("#chord1")[0].play();
+  });
+  
+  $('#_12').click(function(e) {  
+    $("#T").show() 
+    $("#T").fadeOut(100);
+    $("#chord2")[0].currentTime=0;
+    $("#chord2")[0].play(); 
+  });
+
+  $('#_22').click(function(e) {  
+    $("#Y").show() 
+    $("#Y").fadeOut(100); 
+    $("#chord3")[0].currentTime=0;
+    $("#chord3")[0].play();
+  });
+
+  $('#_32').click(function(e) {  
+    $("#U").show() 
+    $("#U").fadeOut(100); 
+    $("#chord4")[0].currentTime=0;
+    $("#chord4")[0].play();
+  });
+
+  $('#_01').click(function(e) {  
+    $("#F").show() 
+    $("#F").fadeOut(100); 
+    $("#kick")[0].currentTime=0;
+    $("#kick")[0].play();
+  });
+
+  $('#_11').click(function(e) {  
+    $("#G").show() 
+    $("#G").fadeOut(100); 
+    $("#snare")[0].currentTime=0;
+    $("#snare")[0].play();
+  });
+
+  $('#_21').click(function(e) {  
+    $("#H").show() 
+    $("#H").fadeOut(100); 
+    $("#chant")[0].currentTime=0;
+    $("#chant")[0].play();
+  });
+
+  $('#_31').click(function(e) {  
+    $("#J").show() 
+    $("#J").fadeOut(100); 
+    $("#hihat")[0].currentTime=0;
+    $("#hihat")[0].play();
+  });
+
+  $('#_00').click(function(e) {  
+    $("#V").show() 
+    $("#V").fadeOut(100); 
+    $("#808")[0].currentTime=0;
+    $("#808")[0].play();
+  });
+
+  $('#_10').click(function(e) {  
+    $("#B").show() 
+    $("#B").fadeOut(100); 
+    $("#wet")[0].currentTime=0;
+    $("#wet")[0].play();
+  });
+
+  $('#_20').click(function(e) {  
+    $("#N").show() 
+    $("#N").fadeOut(100);
+    $("#whoa")[0].currentTime=0; 
+    $("#whoa")[0].play();
+  });
+
+  $('#_30').click(function(e) {  
+    $("#M").show() 
+    $("#M").fadeOut(100);
+    $("#brass")[0].currentTime=0;
+    $("#brass")[0].play(); 
+  });
 
 	var sounds = {
 
@@ -146,7 +251,7 @@ $(document).ready(function() {
   function move() {
     var elem = document.getElementById("loadedBar");   
     var width = 10;
-    var id = setInterval(frame, 35);
+    var id = setInterval(frame, 30);
     function frame() {
       if (width >= 100) {
         clearInterval(id);
@@ -160,11 +265,11 @@ $(document).ready(function() {
   window.onload=move;
 
   $(document).ready(function() {
-    setTimeout(fade, 3500);
+    setTimeout(fade, 3000);
   })
 
   $(function(){  // $(document).ready shorthand
-  $('#box').delay(4000).fadeIn('fast');
+  $('#box').delay(3500).fadeIn('fast');
 });
   function fade(){
      $(".cover").fadeOut('fast');
