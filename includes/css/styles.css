@@ -168,10 +168,14 @@ svg:hover .cls-1,
 svg:hover .cls-2,
 svg:hover #linkedin { 
   fill: #333;
+} 
+
+
+
+.card h3{
+	color: #ED1E79;
+	margin-bottom: 12.5px;
 }
-
-.Cap
-
 .card{
 	background-color: white;
 	color: #ED1E79;
@@ -181,6 +185,10 @@ svg:hover #linkedin {
 	padding-bottom: 20px;
 	margin: 0 auto;
 	}
+
+.card p{
+	font-weight: 500;
+}
 
 .proj{
 	margin: auto 0;
@@ -452,6 +460,7 @@ ul.unstyled {
 	.thumbnail .price sup {
 		font-size: 10px;
 	}
+
 	
 }
 
