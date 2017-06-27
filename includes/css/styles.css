@@ -176,15 +176,7 @@ svg:hover #linkedin {
 	color: #ED1E79;
 	margin-bottom: 12.5px;
 }
-.card{
-	background-color: white;
-	color: #ED1E79;
-	width: 100%;
-	padding-left: 10px;
-	padding-top: 5px;
-	padding-bottom: 20px;
-	margin: 0 auto;
-	}
+
 
 .card p{
 	font-weight: 500;
@@ -460,7 +452,6 @@ ul.unstyled {
 	.thumbnail .price sup {
 		font-size: 10px;
 	}
-
 	
 }
 

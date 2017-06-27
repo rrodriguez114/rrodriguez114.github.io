@@ -327,6 +327,8 @@ a:focus {
   color: #333333;
 }
 
+.c
+
 a:focus {
   outline: thin dotted #333;
   outline: 5px auto -webkit-focus-ring-color;
@@ -885,7 +887,7 @@ pre code {
 
 @media (min-width: 768px) {
   .container {
-    max-width: 728px;
+    max-width: 90vw;
   }
   .col-sm-1,
   .col-sm-2,
@@ -1007,7 +1009,7 @@ pre code {
 
 @media (min-width: 992px) {
   .container {
-    max-width: 940px;
+    max-width: 90vw;
   }
   .col-lg-1,
   .col-lg-2,
@@ -1096,7 +1098,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1220px;
+    max-width: 90vw;
   }
 }
 
