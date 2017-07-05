@@ -228,10 +228,15 @@ svg:hover #linkedin {
 .object-fit{
 	object-fit: cover;
 	width: 100%;
-
-
 }
 
+#resume{
+	color: #333333;
+}
+
+#resume:hover{
+	color: #ED1E79;
+}
 
 .text-container h1{
 
