@@ -211,6 +211,7 @@ svg:hover #linkedin {
 	margin: auto 0;
 	width: 100%;
 	border:1px solid white;
+	margin-top: 20px;
 }
 
 .project-hero{
@@ -578,11 +579,24 @@ ul.unstyled {
 
 .project-tile {
 	position: relative;
-	transition: .2s;
+	transition: .2s; 
 }
 
 .project-tile:hover {
 	opacity: 0.4;
 	z-index: 0;
 
+}
+
+.black-me{
+	color: #333;
+	font-weight: 400px;
+}
+
+.black-me:hover{
+	color: #8b8b8b;
+}
+
+.index-content{
+	margin-top: 10px;
 }
