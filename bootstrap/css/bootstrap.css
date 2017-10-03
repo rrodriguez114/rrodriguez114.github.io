@@ -1,4 +1,4 @@
-/*!
+
  * Bootstrap v3.0.0
  *
  * Copyright 2013 Twitter, Inc
@@ -298,11 +298,11 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 input,
@@ -315,25 +315,9 @@ textarea {
 }
 
 a {
-  color: #8b8b8b;
-  text-decoration: none;
-  transition: .2s;
+  text-decoration: underline;
 }
 
-a 
-
-a:hover,
-a:focus {
-  color: #333333;
-}
-
-.c
-
-a:focus {
-  outline: thin dotted #333;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
-}
 
 img {
   vertical-align: middle;
@@ -433,7 +417,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
   line-height: 1.1;
 }
 
@@ -455,47 +440,42 @@ h6 small,
 }
 
 h1,
-h2 {
+h2,
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h4,
+h5,
+h6 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-
 h1,
 .h1 {
-  font-size: 64px;
-  color: white;
-  font-weight: 800;
-  margin-bottom: -20px;
+  font-size: 38px;
 }
 
 h2,
 .h2 {
-  font-size: 28px;
-  font-weight: 800;
-  color: white;
+  font-size: 32px;
 }
 
 h3,
 .h3 {
-  font-size: 22px;
-  color: #8b8b8b;
-  font-weight: 500;
-  margin-bottom: 25px;
-
+  font-size: 24px;
 }
 
 h4,
 .h4 {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 18px;
 }
 
 h5,
 .h5 {
-  font-size: 18px;
-  color: white;
-  font-weight: 500;
+  font-size: 14px;
 }
 
 h6,
@@ -819,6 +799,7 @@ pre code {
   position: relative;
   min-height: 1px;
   padding-right: 15px;
+  padding-left: 15px;
 }
 
 .col-1,
@@ -886,7 +867,7 @@ pre code {
 
 @media (min-width: 768px) {
   .container {
-    max-width: 90vw;
+    max-width: 728px;
   }
   .col-sm-1,
   .col-sm-2,
@@ -1008,7 +989,7 @@ pre code {
 
 @media (min-width: 992px) {
   .container {
-    max-width: 90vw;
+    max-width: 940px;
   }
   .col-lg-1,
   .col-lg-2,
@@ -1097,7 +1078,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 90vw;
+    max-width: 1170px;
   }
 }
 
@@ -2657,9 +2638,8 @@ button.close {
   padding-right: 15px;
   padding-left: 15px;
   margin-bottom: 20px;
-  background-color: white;
+  background-color: #eeeeee;
   border-radius: 4px;
-  padding-top: 10px;
 }
 
 .navbar:before,
@@ -2691,10 +2671,8 @@ button.close {
   padding-top: 15px;
   padding-bottom: 15px;
   line-height: 20px;
-  color: #Ed1e79;
+  color: #777777;
   border-radius: 4px;
-  font-weight: 500;
-  transition: .2s;
 }
 
 .navbar-nav > li > a:hover,
@@ -2943,7 +2921,6 @@ button.close {
   }
   .navbar-nav > li {
     float: left;
-    font-size: 14px;
   }
   .navbar-nav > li > a {
     border-radius: 0;
@@ -2975,9 +2952,7 @@ button.close {
 }
 
 .navbar-link {
-  color: white;
-  font-size: 24px;
-  font-weight: 500;
+  color: #777777;
 }
 
 .navbar-link:hover {
